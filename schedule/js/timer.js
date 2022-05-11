@@ -20,6 +20,7 @@ function period(t) {
 
     $(".per").html(period(secs)[1]);
     $(".bg").css("width", 100 - ((Math.floor(diff % 60) / .6) + ((diff % 1) / .6)) + "%");
+    document.title = `${hh}:${mm}:${ss} left...`
 
     setTimeout(tick, 25)
 }();
