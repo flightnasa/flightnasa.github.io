@@ -3,5 +3,4 @@ arr = ["J","Ju","Jus","Jusr","Jus","Just","Justu","Just","Justi","Justin","Justi
 setTimeout((function() {
     var t = setInterval((function() {
         i > arr.length && clearInterval(t), 
-        $("p").html(arr[i]),i++}) , 
-    150)}), 1e3);
+        $("p").html(arr[i]),i++}), 150)}), 1e3);
