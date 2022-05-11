@@ -49,7 +49,7 @@ a:hover {
     position: absolute;
     left: 50%;
     top: 50%;
-    transform: translate(-57.25%, -47.5%);
+    transform: translate(-57.25%, -48%);
     color: white;
     mix-blend-mode: difference;
     font-size: 24vw;
