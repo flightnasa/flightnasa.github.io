@@ -1,0 +1,165 @@
+@font-face {
+  font-family: "Gooper";
+  src: url(../../assets/fonts/Gooper/Gooper-Regular.ttf);
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Gooper";
+  src: url(../../assets/fonts/Gooper/Gooper-SemiBoldItalic.ttf);
+}
+
+html {
+  color: #101111;
+  font-family: "Gooper";
+  white-space: nowrap;
+}
+
+span {
+  display: inline-block;
+}
+
+a {
+  color: #6464ff;
+  transition: color .1s;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ff0000;
+}
+
+.ctn {
+  position: absolute;
+  left: 13.5vw;
+  top: 18vw;
+  font-size: 5vw;
+  line-height: 6vw;
+}
+
+.cov {
+  width: 80vw;
+  height: 6.5vw;
+  background: #fff;
+  position: absolute;
+}
+
+.cov1 {
+  z-index: 1;
+}
+
+.cov2 {
+  z-index: 2;
+}
+
+.cov3 {
+  z-index: 3;
+  animation: disappear 1s forwards 1.5s;
+}
+
+.line {
+  position: absolute;
+}
+
+.line1 {
+  z-index: 0;
+  animation: appear 1s forwards;
+}
+
+.line2 {
+  z-index: 1;
+  animation: appear 1s forwards 0.5s;
+}
+
+.line3 {
+  z-index: 2;
+  animation: appear 1s forwards 1s;
+}
+
+.ital {
+  font-weight: bold;
+}
+
+.flower {
+  color: #ff6f79;
+  animation: spin 1s forwards;
+}
+
+.star {
+  color: #4697f6;
+  animation: spin 1s forwards 0.5s;
+}
+
+.four {
+  color: #19d175;
+  animation: spin 1s forwards 1s;
+}
+
+.underline {
+  width: 0;
+  height: .4vw;
+  background: #000;
+  position: absolute;
+  z-index: 3;
+  border-radius: .1vw;
+  transform: translate(-2vw, -5vw);
+  animation: underline 1s forwards 1.25s;
+}
+
+.current {
+  position: absolute;
+  transform: translateY(-12vw);
+  font-size: 3vw;
+  animation: down 1s forwards 1.25s;
+}
+
+.icons {
+  position: absolute;
+  left: 65.5vw;
+  transform: translateY(-12vw);
+  font-size: 3vw;
+  animation: down 1s forwards 1.25s;
+}
+
+.fa-brands {
+  color: #000;
+}
+
+@keyframes disappear {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes underline {
+  to {
+    width: 76vw;
+  }
+}
+
+@keyframes down {
+  50% {
+    z-index: 1;
+  }
+  100% {
+    z-index: 4;
+    transform: translateY(-4.5vw);
+  }
+}
+
+@keyframes appear {
+  to {
+    transform: translateY(-6.5vw);
+  }
+}
+
+@keyframes spin {
+  from {
+    font-size: 0;
+  }
+
+  to {
+    font-size: inherit;
+    transform: rotate(360deg);
+  }
+}
