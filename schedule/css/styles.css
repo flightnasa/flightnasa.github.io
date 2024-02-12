@@ -12,7 +12,7 @@ body {
 .time_left--ctn {
     position: absolute;
     right: 50%;
-    bottom: 53.5%;
+    bottom: 50%;
     transform: translate(50%, 50%);
     line-height: 1;
     color: #000;
