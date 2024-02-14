@@ -6,7 +6,7 @@ var data = [
     [11, 20, "INTERMISSION"],
     [13, 16, "3RD/7TH PERIOD"],
     [13, 21, "INTERMISSION"],
-    [14, 1, "ADVIRSORY/ROARR"],
+    [14, 1, "ADVISORY/ROARR"],
     [14, 6, "INTERMISSION"],
     [15, 31, "4TH/8TH PERIOD"],
     [32, 15, "SCHOOL OVER!"] // 1st period + 24 hours bc im lazy
