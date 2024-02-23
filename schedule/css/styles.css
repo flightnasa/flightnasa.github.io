@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&display=swap');
 
 body {
-    background: #f8f8f8;
+    background: rgb(248, 244, 236);
     font-family: 'DM Mono', monospace;
     font-weight: lighter;
     white-space: nowrap;
@@ -15,32 +15,31 @@ body {
     bottom: 50%;
     transform: translate(50%, 50%);
     line-height: 1;
-    color: #000;
+    color: rgb(64, 43, 58);
 }
 
 #time_left {
     font-size: 16vw;
     font-weight: bold;
-    text-shadow: 0.35vw 0.35vw 0 rgba(0,0,0,0.2), 0.7vw 0.7vw 0 rgba(0,0,0,0.1);
+    text-shadow: 0.35vw 0.35vw 0 rgba(64, 43, 58, 0.2), 0.7vw 0.7vw 0 rgba(255,255,255,0.1);
 }
 
 #time_left--period {
     font-size: 2vw;
-    text-shadow: 0.1vw 0.1vw 0 rgba(0,0,0,0.2), 0.2vw 0.2vw 0 rgba(0,0,0,0.1);
+    text-shadow: 0.15vw 0.15vw 0 rgba(64, 43, 58, 0.2), 0.3vw 0.3vw 0 rgba(255,255,255,0.1);
 }
 
 .progress_bar--ctn {
     height: 2vw;
     width: 100%;
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(64, 43, 58, 0.2);
     position: absolute;
     left: 0;
     bottom: 0;
 }
 
-
 #credit {
-    color: rgba(0, 0, 0, 0.15);
+    color: rgba(64, 43, 58, 0.2);
     font-size: 1.5vw;
     position: absolute;
     right: 1vw;
@@ -49,5 +48,5 @@ body {
 
 #progress_bar {
     height: inherit;
-    background: #000;
+    background: rgb(64, 43, 58);
 }
