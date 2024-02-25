@@ -1,22 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Schedule</title>
-    <link rel="stylesheet" href="schedule/css/styles.css">
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
-    <script src="./schedule/js/data.js"></script>
-</head>
-<body>
-    <div class="time_left--ctn">
-        <div id="time_left"></div>
-        <div id="time_left--period"></div>
-    </div>
-    <span id="credit">(c) justin phu 2024</span>
-    <div class="progress_bar--ctn">
-        <div id="progress_bar"></div>
-    </div>
-    <script src="./schedule/js/timer.js"></script>
-</body>
+     <head>
+          <meta charset="UTF-8" />
+          <meta
+               name="viewport"
+               content="width=device-width, initial-scale=1.0"
+          />
+          <link rel="stylesheet" href="/schedule/css/styles.css" />
+          <link rel="icon" href="/schedule/src/img/timer.png" />
+          <script src="https://kit.fontawesome.com/fb0a680bc7.js" crossorigin="anonymous"></script>
+          <script src="/schedule/js/jquery-3.7.1.min.js"></script>
+          <script src="/schedule/js/periods.js"></script>
+          <title>THE TIMER</title>
+     </head>
+     <body>
+          <div id="time">
+               <div id="time__left"></div>
+               <div id="time__period"></div>
+               <div id="time__greeting"></div>
+               <div id="time__date"></div>
+          </div>
+          <div id="settings">
+               <img id="settings__icon" src="/src/img/settings.png" onclick="settings()">
+               <div id="settings__list__cover"></div>
+               <div id="settings__list">
+                    <span id="settings__list__mode--light" class="bold" onclick="light()">light mode</span> · <span id="settings__list__mode--dark" onclick="dark()">dark mode</span>
+               </div>
+          </div>
+          <div id="credit">© 2024 by Justin Phu</div>
+          <script src="/schedule/js/settings.js"></script>
+          <script src="/schedule/js/timer.js"></script>
+     </body>
 </html>
