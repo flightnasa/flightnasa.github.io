@@ -47,6 +47,7 @@ a {
 
 #time__greeting {
      font-size: 1vw;
+     font-weight: 500;
      /* place below time */
      position: relative;
      bottom: 7.25vw;
