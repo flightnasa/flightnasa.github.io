@@ -11,15 +11,21 @@
 body {
      --background: #fcfcfc;
      background: var(--background);
-     color: #0c0c0c;
+     --color: #0c0c0c;
+     color: var(--color);
      font-family: "Clash Display";
      font-weight: 400;
+}
+
+a {
+     text-decoration: none;
+     color: var(--color);
 }
 
 #time {
      /* center */
      position: absolute;
-     top: 54%;
+     top: 53.5%;
      left: 50.25%;
      transform: translate(-50%, -50%);
 }
@@ -112,4 +118,9 @@ body {
      position: absolute;
      bottom: .5vw;
      right: .75vw;
+     transition: opacity 0.25s;
+}
+
+#credit:hover {
+     opacity: 1;
 }
