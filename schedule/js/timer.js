@@ -19,13 +19,10 @@ function period(t) {
      timeLeft =
           period(seconds)[0] * 3600 + period(seconds)[1] * 60 + 5 - seconds;
      timeLeft >= 43200 ? (x = 11) : (x = 12);
-     timeLeftFormatted = new Date(timeLeft * 1000)
-          .toISOString()
-          .slice(x, 19)
-          .replace(/:/g, "·");
+     timeLeftFormatted = new Date(timeLeft * 1000).toISOString().slice(x, 19);
 
      // display time left
-     $("#time__left").html(timeLeftFormatted);
+     $("#time__left").html(timeLeftFormatted.replace(/:/g, "·"));
      document.title = timeLeftFormatted;
 
      // display current period
