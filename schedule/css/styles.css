@@ -87,6 +87,7 @@ a {
      position: absolute;
      bottom: .25vw;
      left: -1vw;
+     border-radius: 1vw;
 }
 
 .bold {

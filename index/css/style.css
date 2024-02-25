@@ -1,12 +1,12 @@
 @font-face {
   font-family: "Gooper";
-  src: url(../../assets/fonts/Gooper/Gooper-Regular.ttf);
+  src: url(../src/fonts/Gooper/Gooper-Regular.ttf);
 }
 
 @font-face {
   font-weight: bold;
   font-family: "Gooper";
-  src: url(../../assets/fonts/Gooper/Gooper-SemiBoldItalic.ttf);
+  src: url(../src/fonts/Gooper/Gooper-SemiBoldItalic.ttf);
 }
 
 html {
