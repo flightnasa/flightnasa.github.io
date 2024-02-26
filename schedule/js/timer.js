@@ -48,5 +48,5 @@ function period(t) {
                start.getFullYear().toString().substr(2)
      );
 
-     setTimeout(tick, 25);
+     setTimeout(tick, 500);
 })();
