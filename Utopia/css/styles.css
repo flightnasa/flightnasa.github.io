@@ -172,7 +172,7 @@ a {
     top: 62vw;
     left: 35vw;
     width: 30vw;
-    height: 15vw;
+    height: 17vw;
     background: url(../src/img/thumb.png);
     background-size: cover;
 }
@@ -188,5 +188,5 @@ a {
     font-size: 1.75vw;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
-    top: 17vw;
+    top: 18vw;
 }
