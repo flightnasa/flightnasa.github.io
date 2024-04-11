@@ -170,9 +170,9 @@ a {
 #video {
     position: absolute;
     top: 62vw;
-    left: 35vw;
-    width: 30vw;
-    height: 17vw;
+    left: 38.5vw;
+    width: 25vw;
+    height: 14vw;
     background: url(../src/img/thumb.png);
     background-size: cover;
 }
@@ -188,5 +188,5 @@ a {
     font-size: 1.75vw;
     font-family: 'Times New Roman', Times, serif;
     position: relative;
-    top: 18vw;
+    top: 15.5vw;
 }
