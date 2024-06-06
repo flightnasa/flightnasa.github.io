@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,
+body {
+    font-family: 'Bebas Neue';
+    white-space: nowrap;
+    overflow: hidden;
+    background: white;
+    margin: 0;
+}
+
+a {
+    color: inherit;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: .2s;
+    color: red;
+}
+
+.top, .bottom {
+    height: 24%;
+    width: 100%;
+    background: white;
+    position: absolute;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.bg {
+    height: 100%;
+    position: absolute;
+    background: white;
+    mix-blend-mode: difference;
+    z-index: -1;
+}
+
+.fa-solid {
+    font-size: 1vw;
+    position: relative;
+    bottom: .33vw;
+}
+
+.ctn {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-57.25%, -45.75%);
+    color: white;
+    mix-blend-mode: difference;
+    font-size: 24vw;
+    transition: .5s;
+    z-index: 1;
+}
+
+.ms {
+    font-size: 10vw;
+    position: absolute;
+    top: 3.5vw;
+}
+
+.c {
+    font-size: 20vw;
+    position: relative;
+    bottom: 3.1vw;
+}
+
+.cred, .per {
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 2vw;
+    padding: .5vw 1.5vw .1vw 1.5vw;
+    position: absolute;
+    bottom: 0vw;
+    z-index: 2;
+}
+
+.cred {
+    border-radius: .5vw 0 0 0;
+    position: absolute;
+    right: 0;
+}
+
+.per {
+    border-radius: 0 .5vw 0 0;
+    position: absolute;
+    left: 0;
+}

@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-     <head>
-          <meta charset="UTF-8" />
-          <meta
-               name="viewport"
-               content="width=device-width, initial-scale=1.0"
-          />
-          <link rel="stylesheet" href="/schedule/css/styles.css" />
-          <link rel="icon" href="/schedule/src/img/timer.png" />
-          <script src="https://kit.fontawesome.com/fb0a680bc7.js" crossorigin="anonymous"></script>
-          <script src="/schedule/js/jquery-3.7.1.min.js"></script>
-          <script src="/schedule/js/periods.js"></script>
-          <title>THE TIMER</title>
-     </head>
-     <body>
-          <div id="time">
-               <div id="time__left"></div>
-               <div id="time__period"></div>
-               <div id="time__greeting"></div>
-               <div id="time__date"></div>
-          </div>
-          <div id="settings">
-               <img id="settings__icon" src="/schedule/src/img/settings.png" onclick="settings()">
-               <div id="settings__list__cover"></div>
-               <div id="settings__list">
-                    <span id="settings__list__mode--light" class="bold" onclick="light()">light mode</span> · <span id="settings__list__mode--dark" onclick="dark()">dark mode</span>
-               </div>
-          </div>
-          <a id="credit" href="/">a justin phu project.</a>
-          <script src="/schedule/js/settings.js"></script>
-          <script src="/schedule/js/timer.js"></script>
-     </body>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./schedule/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <script src="./schedule/js/data.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="top"></div>
+  <div class="ctn">
+    <span class="hh"></span>
+      <span class="c">:</span>
+    <span class="mm"></span> 
+      <span class="c">:</span>
+    <span class="ss"></span> 
+    <span class="ms"></span><br>
+  </div>
+  <div class="per"></div>
+  <div class="cred">Made by <a href="./index.html">Justin Phu</a> <a class="fa-solid fa-circle-info" href="https://forms.gle/UKrSQEQVTgfabDG46" target="_blank"></a></div>
+  <div class="bottom"></div>
+  <div class="bg"></div>
+  <script src="./schedule/js/timer.js"></script>
+</body>
+
 </html>
